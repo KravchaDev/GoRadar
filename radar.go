@@ -2,8 +2,8 @@ package radar
 
 import "math"
 
-const earthRadius = 6371210  // радиус земли
-var DISTANCE float64 = 20000 // константа для перых версий тестов (будем принимать в будущем)
+var earthRadius float64 = 6371210 // радиус земли
+var DISTANCE float64 = 20000      // константа для перых версий тестов (будем принимать в будущем)
 
 // Computer Delta ...
 func computeDelta(degrees float64) float64 {
